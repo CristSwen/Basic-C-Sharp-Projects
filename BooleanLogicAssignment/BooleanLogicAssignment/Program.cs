@@ -16,8 +16,9 @@ namespace BooleanLogicAssignment
             int age = Convert.ToInt32(enterAge);
 
             //Asking the user a yes or no question for DUI's
-            Console.WriteLine("Have you ever had a DUI?");
-            string dui = Console.ReadLine();
+            Console.WriteLine("Have you ever had a DUI? Please enter true or false");
+            string enterDui = Console.ReadLine();
+            bool dui = Convert.ToBoolean(enterDui);
 
             //Taking the asnwer of speeding tickets and converting it into a int
             Console.WriteLine("How many speeding tickets do you have?");
@@ -25,7 +26,7 @@ namespace BooleanLogicAssignment
             int tickets = Convert.ToInt32(enterTickets);
 
             //Seeing if the User is 15 or older, has no DUI's and has 3 or less tickets
-            bool qualifications = (age >= 15 && dui == "no" && tickets <= 3);
+            bool qualifications = (age >= 15 && dui == false && tickets <= 3);
 
             Console.WriteLine("Qualified?");
             Console.WriteLine(qualifications);
