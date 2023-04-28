@@ -35,11 +35,9 @@ namespace MathAndComparisonAssignment
             bool compare = hourlyByWeekly1 > hourlyByWeekly2;
 
             Console.WriteLine("Annual salary of Person1: ");
-            Console.WriteLine(per1Hourly);
-            Console.WriteLine(per1Weekly);
+            Console.WriteLine(hourlyByWeekly1);
             Console.WriteLine("Annual salary of Person2: ");
-            Console.WriteLine(per2Hourly);
-            Console.WriteLine(per2Weekly);
+            Console.WriteLine(hourlyByWeekly2);
             Console.WriteLine("Does Person 1 make more money than Person 2?");
             Console.WriteLine(compare);
             Console.ReadLine();
