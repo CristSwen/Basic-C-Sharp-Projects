@@ -29,7 +29,10 @@ namespace MathAndComparisonAssignment
             string per2Weekly = Console.ReadLine();
             int weekly2Per = Convert.ToInt32(per2Weekly);
 
-            bool compare = hourly1Per > hourly2Per;
+            
+            decimal hourlyByWeekly1 = hourly1Per * weekly1Per;
+            decimal hourlyByWeekly2 = hourly2Per * weekly2Per;
+            bool compare = hourlyByWeekly1 > hourlyByWeekly2;
 
             Console.WriteLine("Annual salary of Person1: ");
             Console.WriteLine(per1Hourly);

@@ -5,3 +5,10 @@ C:\Users\Cristina Swenson\Desktop\Basic_C#_Programs\MathAndComparisonAssignment\
 C:\Users\Cristina Swenson\Desktop\Basic_C#_Programs\MathAndComparisonAssignment\MathAndComparisonAssignment\obj\Debug\MathAndComparisonAssignment.csproj.CoreCompileInputs.cache
 C:\Users\Cristina Swenson\Desktop\Basic_C#_Programs\MathAndComparisonAssignment\MathAndComparisonAssignment\obj\Debug\MathAndComparisonAssignment.exe
 C:\Users\Cristina Swenson\Desktop\Basic_C#_Programs\MathAndComparisonAssignment\MathAndComparisonAssignment\obj\Debug\MathAndComparisonAssignment.pdb
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MathAndComparisonAssignment\MathAndComparisonAssignment\bin\Debug\MathAndComparisonAssignment.exe.config
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MathAndComparisonAssignment\MathAndComparisonAssignment\bin\Debug\MathAndComparisonAssignment.exe
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MathAndComparisonAssignment\MathAndComparisonAssignment\bin\Debug\MathAndComparisonAssignment.pdb
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MathAndComparisonAssignment\MathAndComparisonAssignment\obj\Debug\MathAndComparisonAssignment.csproj.AssemblyReference.cache
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MathAndComparisonAssignment\MathAndComparisonAssignment\obj\Debug\MathAndComparisonAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MathAndComparisonAssignment\MathAndComparisonAssignment\obj\Debug\MathAndComparisonAssignment.exe
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MathAndComparisonAssignment\MathAndComparisonAssignment\obj\Debug\MathAndComparisonAssignment.pdb
