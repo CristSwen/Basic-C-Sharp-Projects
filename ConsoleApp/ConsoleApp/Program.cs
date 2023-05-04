@@ -99,27 +99,80 @@ namespace ConsoleApp
 
 
 
-            // PART FIVE OF THE CONSOLE APP ASSIGNMENT ****
+            // PART FIVE OF THE CONSOLE APP ASSIGNMENT *******
+            //List<string> strList = new List<string>();
+            //strList.Add("loco");
+            //strList.Add("loco");
+            //strList.Add("itzy");
+            //Console.WriteLine("Enter a word to search for");
+            //string response = Console.ReadLine();
+            ////Setting inital match to false, so if matches are found, it will go to true.
+            //bool match = false;
+            //for (int i = 0; i < strList.Count; i++)
+            //{
+            //    if (strList[i] == response)
+            //    {
+            //        //Because this is in the for loop it will print for ever time a duplicate is found
+            //        Console.WriteLine("Found {0} at {1}", response, i);
+            //        Console.ReadLine();
+            //        match = true;
+            //    }
+            //}
+            ////If no match is false when something is searched, will print text and end.
+            //if (!match)
+            //{
+            //    Console.WriteLine("Could not find what you searched for");
+            //    Console.ReadLine();
+            //}
+
+
+
+            // PART SIX OF THE CONSOLE APP ASSIGNMENT **********
             List<string> strList = new List<string>();
-            strList.Add("loco");
-            strList.Add("loco");
-            strList.Add("itzy");
-            Console.WriteLine("Enter a word to search for");
-            string response = Console.ReadLine();
-            bool match = false;
-            for (int i = 0; i < strList.Count; i++)
+            strList.Add("Jimin");
+            strList.Add("Jimin");
+            strList.Add("Ryujin");
+            strList.Add("Ryujin");
+            strList.Add("Jongho");
+
+            foreach (string name in strList)
             {
-                if (strList[i] == response)
+                //A count so if something has been seen, add it to the count
+                int count = 0;
+                foreach (string i in strList)
                 {
-                    Console.WriteLine("Found {0} at {1}", response, i);
-                    Console.ReadLine();
-                    match = true;
+                    if (i == name)
+                    {
+                        count++;
+                    }
                 }
-            }
-            if (!match)
-            {
-                Console.WriteLine("Could not find what you searched for");
-                Console.ReadLine();
+                if (count > 1 && strList.IndexOf(name) != strList.LastIndexOf(name))
+                {
+                    Console.WriteLine("{0} - This item is a duplicate", name);
+                    Console.ReadLine();
+                }
+                else
+                {
+                    bool duplicate = false;
+                    for (int i = 0; i < strList.IndexOf(name); i++)
+                    {
+                        if (strList[i] == name)
+                        {
+                            duplicate = true;
+                            break;
+                        }
+                    }
+                    if (duplicate)
+                    {
+                        Console.WriteLine("{0} - This item is a duplicate", name);
+                        Console.ReadLine();
+                    }
+                    else
+                    {
+                        Console.WriteLine("{0} - This item is unique", name);
+                        Console.ReadLine();
+                    }
+                }
             }
         }
     }
