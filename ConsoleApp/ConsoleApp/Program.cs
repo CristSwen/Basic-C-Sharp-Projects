@@ -69,32 +69,57 @@ namespace ConsoleApp
 
 
             // PART FOUR OF THE CONSOLE APP ASSIGNMENT ***********
+            //List<string> strList = new List<string>();
+            //strList.Add("strawberry");
+            //strList.Add("onion");
+            //strList.Add("blueberry");
+            //strList.Add("seaweed");
+
+            //Console.WriteLine("User! Search for a Fruit or Veggie! ex.'apple'");
+            //string response = Console.ReadLine();
+
+            ////This for loop chekcs if response is equal to i
+            //for (int i = 0; i < strList.Count; i++)
+            //{
+            //    if (strList[i] == response)
+            //    {
+            //        //if the reponse is equal to i, it will print the index and name
+            //        Console.WriteLine("{0}: {1}", response, i);
+            //        Console.ReadLine();
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        //This will print not there for every item in the list then end the code.
+            //        Console.WriteLine("Not there");
+            //        Console.ReadLine();
+
+            //    }
+            //}
+
+
+
+            // PART FIVE OF THE CONSOLE APP ASSIGNMENT ****
             List<string> strList = new List<string>();
-            strList.Add("strawberry");
-            strList.Add("onion");
-            strList.Add("blueberry");
-            strList.Add("seaweed");
-
-            Console.WriteLine("User! Search for a Fruit or Veggie! ex.'apple'");
+            strList.Add("loco");
+            strList.Add("loco");
+            strList.Add("itzy");
+            Console.WriteLine("Enter a word to search for");
             string response = Console.ReadLine();
-
-            //This for loop chekcs if response is equal to i
+            bool match = false;
             for (int i = 0; i < strList.Count; i++)
             {
                 if (strList[i] == response)
                 {
-                    //if the reponse is equal to i, it will print the index and name
-                    Console.WriteLine("{0}: {1}", response, i);
+                    Console.WriteLine("Found {0} at {1}", response, i);
                     Console.ReadLine();
-                    break;
+                    match = true;
                 }
-                else
-                {
-                    //if the respone is not equal to i, the program will end.
-                    Console.WriteLine("Not there");
-                    Console.ReadLine();
-                
-                }
+            }
+            if (!match)
+            {
+                Console.WriteLine("Could not find what you searched for");
+                Console.ReadLine();
             }
         }
     }
