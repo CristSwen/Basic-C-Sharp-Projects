@@ -1,0 +1,7 @@
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment\bin\Debug\MainMethodAssignment.exe.config
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment\bin\Debug\MainMethodAssignment.exe
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment\bin\Debug\MainMethodAssignment.pdb
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment\obj\Debug\MainMethodAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment\obj\Debug\MainMethodAssignment.exe
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment\obj\Debug\MainMethodAssignment.pdb
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment\obj\Debug\MainMethodAssignment.csproj.AssemblyReference.cache
