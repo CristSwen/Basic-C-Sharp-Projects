@@ -1,0 +1,7 @@
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\AppStringsAndIntegersAssignment\AppStringsAndIntegersAssignment\bin\Debug\AppStringsAndIntegersAssignment.exe.config
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\AppStringsAndIntegersAssignment\AppStringsAndIntegersAssignment\bin\Debug\AppStringsAndIntegersAssignment.exe
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\AppStringsAndIntegersAssignment\AppStringsAndIntegersAssignment\bin\Debug\AppStringsAndIntegersAssignment.pdb
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\AppStringsAndIntegersAssignment\AppStringsAndIntegersAssignment\obj\Debug\AppStringsAndIntegersAssignment.csproj.AssemblyReference.cache
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\AppStringsAndIntegersAssignment\AppStringsAndIntegersAssignment\obj\Debug\AppStringsAndIntegersAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\AppStringsAndIntegersAssignment\AppStringsAndIntegersAssignment\obj\Debug\AppStringsAndIntegersAssignment.exe
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\AppStringsAndIntegersAssignment\AppStringsAndIntegersAssignment\obj\Debug\AppStringsAndIntegersAssignment.pdb
