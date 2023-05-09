@@ -16,6 +16,7 @@ namespace MethodAssignment
             Console.WriteLine("Enter a second number if you wish");
             string secondEnter = Console.ReadLine();
             int secondNum = 0;
+            //If second number is empty it will continue the code
             if (!string.IsNullOrEmpty(secondEnter))
             {
                 secondNum = Convert.ToInt32(secondEnter);
