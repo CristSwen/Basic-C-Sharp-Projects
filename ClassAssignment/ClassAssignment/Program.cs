@@ -33,16 +33,10 @@ namespace ClassAssignment
             voided.IntMethod(answer);
 
 
-            //A static method that will print the name to the console.
-            //static void staticMethod(string name)
-            //{
-                
-            //    Console.WriteLine("Hello {0}, how are you!", name);
-            //}
-
-            //Console.WriteLine("Tell me your name");
-            //string response = Console.ReadLine();
-            //staticMethod(response);
+            //For the Static class 
+            Console.WriteLine("Tell me your name");
+            string response = Console.ReadLine();
+            StaticClass.staticMethod(response);
         }
     }
 }
