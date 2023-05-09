@@ -13,9 +13,10 @@ namespace MainMethodAssignment
             return num / 12;
         }
 
-        public decimal myFunc(decimal num)
+        public int myFunc(decimal num)
         {
-            return num + 3;
+            int newnum = Convert.ToInt32(num);
+            return newnum + 3;
         }
 
         public int myFunc(string num)

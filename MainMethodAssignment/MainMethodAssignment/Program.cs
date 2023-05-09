@@ -20,7 +20,7 @@ namespace MainMethodAssignment
 
             Console.WriteLine("Please enter a decimal");
             decimal floResult = Convert.ToDecimal(Console.ReadLine());
-            decimal secondResult = numbers.myFunc(floResult);
+            int secondResult = numbers.myFunc(floResult);
             Console.WriteLine(secondResult);
             Console.ReadLine();
 
