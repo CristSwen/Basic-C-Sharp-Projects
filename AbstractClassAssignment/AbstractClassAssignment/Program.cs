@@ -11,8 +11,8 @@ namespace AbstractClassAssignment
         static void Main(string[] args)
         {
             Employee employee = new Employee();
-            employee.firstName = "Jes";
-            employee.lastName = "Anderson";
+            employee.firstName = "Sample";
+            employee.lastName = "Student";
             employee.SayName();
         }
     }
