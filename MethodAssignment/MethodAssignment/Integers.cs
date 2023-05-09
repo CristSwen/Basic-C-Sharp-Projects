@@ -10,7 +10,7 @@ namespace MethodAssignment
     {
         public int IntMethod(int num1, int num2)
         {
-            int newnum = num1 * 3;
+            int newnum = num1 * 3 + num2;
             return newnum;
         }
     }
