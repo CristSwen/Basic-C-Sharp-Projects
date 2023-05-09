@@ -13,7 +13,7 @@ namespace MainMethodAssignment
             return num / 12;
         }
 
-        public double myFunc(double num)
+        public decimal myFunc(decimal num)
         {
             return num + 3;
         }

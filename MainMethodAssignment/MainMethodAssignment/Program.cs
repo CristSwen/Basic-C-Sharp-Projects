@@ -18,17 +18,17 @@ namespace MainMethodAssignment
             //Console.WriteLine(firstResult);
             //Console.ReadLine();
 
-            //Console.WriteLine("Please enter a decimal");
-            //double floResult = Convert.ToDouble(Console.ReadLine());
-            //double secondResult = numbers.myFunc(floResult);
-            //Console.WriteLine(secondResult);
-            //Console.ReadLine();
-
-            Console.WriteLine("Please enter a number");
-            string strResult = Console.ReadLine();
-            int lastResult = numbers.myFunc(strResult);
-            Console.WriteLine(lastResult);
+            Console.WriteLine("Please enter a decimal");
+            decimal floResult = Convert.ToDecimal(Console.ReadLine());
+            decimal secondResult = numbers.myFunc(floResult);
+            Console.WriteLine(secondResult);
             Console.ReadLine();
+
+            //Console.WriteLine("Please enter a number");
+            //string strResult = Console.ReadLine();
+            //int lastResult = numbers.myFunc(strResult);
+            //Console.WriteLine(lastResult);
+            //Console.ReadLine();
         }
     }
 }
