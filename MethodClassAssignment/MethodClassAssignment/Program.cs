@@ -12,7 +12,7 @@ namespace MethodClassAssignment
         {
             Integers integers = new Integers();
             integers.Numbers(5, 7);
-            integers.Numbers(number, number2);
+            integers.Numbers(number: 3, number2: 4);
 
            
         }
