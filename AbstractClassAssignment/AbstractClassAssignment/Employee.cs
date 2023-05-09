@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace AbstractClassAssignment
 {
-    class Employee
+    class Employee : Person
     {
+        public override void SayName()
+        {
+            Console.WriteLine("Employee:");
+            base.SayName();
+        }
     }
 }
