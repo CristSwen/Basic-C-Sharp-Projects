@@ -8,9 +8,11 @@ namespace AbstractClassAssignment
 {
     public abstract class Person
     {
+        //Creating two properties
         public string firstName { get; set; }
         public string lastName { get; set; }
 
+        //Creating a virtual method that will print the names.
         public virtual void SayName()
         {
             Console.WriteLine(firstName);
