@@ -1,0 +1,7 @@
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment\bin\Debug\MethodsAndObjectsAssignment.exe.config
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment\bin\Debug\MethodsAndObjectsAssignment.exe
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment\bin\Debug\MethodsAndObjectsAssignment.pdb
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment\obj\Debug\MethodsAndObjectsAssignment.csproj.AssemblyReference.cache
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment\obj\Debug\MethodsAndObjectsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment\obj\Debug\MethodsAndObjectsAssignment.exe
+C:\Users\Cristina Swenson\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment\obj\Debug\MethodsAndObjectsAssignment.pdb
