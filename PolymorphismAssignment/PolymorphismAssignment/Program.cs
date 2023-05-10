@@ -10,6 +10,13 @@ namespace PolymorphismAssignment
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee();
+            
+
+            //Creating a new first name to be called
+            IQuittable quittableName = new Employee { firstName = "Richard" };
+            quittableName.Quit();
+            Console.ReadLine();
         }
     }
 }
