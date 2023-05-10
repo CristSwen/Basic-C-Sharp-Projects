@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace AbstractClassAssignment
 {
     class Employee : Person
@@ -15,5 +16,6 @@ namespace AbstractClassAssignment
             Console.WriteLine("Employee:");
             base.SayName();
         }
+
     }
 }
