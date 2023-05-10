@@ -11,15 +11,14 @@ namespace OperatorsAssignment
         static void Main(string[] args)
         {
             Employee employee = new Employee();
-            int id1 = employee.Id = 12;
-            int id2 = employee.Id = 12;
+            Employee employee1 = new Employee() { Id = 1 };
+            Employee employee2 = new Employee() { Id = 2 };
 
-            bool equal = id1 == id2;
-            bool notEqual = id1 != id2;
-
-            Console.WriteLine(equal);
-            Console.WriteLine(notEqual);
+            Console.WriteLine(employee1 == employee2);
+            Console.WriteLine(employee1 != employee2);
             Console.ReadLine();
+
+
         }
     }
 }

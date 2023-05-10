@@ -25,7 +25,7 @@ namespace OperatorsAssignment
         public static bool operator!= (Employee id1, Employee id2)
         {
             bool result = false;
-            if (id1.Id == id2.Id)
+            if (id1.Id != id2.Id)
             {
                 result = true;
             }
