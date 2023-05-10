@@ -14,15 +14,20 @@ namespace MethodAssignment
             Console.WriteLine("Please enter a number");
             int firstNum = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter a second number if you wish");
-            string secondEnter = Console.ReadLine();
-            int secondNum = 0;
-            //If second number is empty it will continue the code
-            if (!string.IsNullOrEmpty(secondEnter))
+            //The second readline is placed inside the try block to see if all is good.
+            //If a second number is entered, the method will run passing both numbers in
+            try
             {
-                secondNum = Convert.ToInt32(secondEnter);
+                string secondEnter = Console.ReadLine();
+                int secondNum = Convert.ToInt32(secondEnter);
+                Console.WriteLine(integers.IntMethod(firstNum, secondNum));
             }
-            int result = integers.IntMethod(firstNum, secondNum);
-            Console.WriteLine(result);
+            //If the user did not enter in a number, but entered nothing, symbols, or letters, it will only pass the firstNum
+            catch
+            {
+                Console.WriteLine(integers.IntMethod(firstNum));
+            }
+
 
             Console.ReadLine();
         }

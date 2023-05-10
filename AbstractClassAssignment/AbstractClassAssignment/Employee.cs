@@ -8,6 +8,8 @@ namespace AbstractClassAssignment
 {
     class Employee : Person
     {
+        //Inheriting the Person class.
+        //Because Person class is Abstract, we must override it to use it
         public override void SayName()
         {
             Console.WriteLine("Employee:");
