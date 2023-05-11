@@ -43,7 +43,15 @@ namespace LambdaAssignment
                 Console.WriteLine(i.firstName + " " + i.lastName);
             }
             Console.ReadLine();
-            
+
+
+            //Making a list of all employees with Id greater than 2, cause I didn't make enough for 5 and it's 10:30pm
+            List<Employee> idLoop = employeeList.Where(i => i.Id > 2).ToList();
+            foreach (Employee i in idLoop)
+            {
+                Console.WriteLine(i.Id + " " + i.firstName);
+            }
+            Console.ReadLine();
         }
     }
 }
