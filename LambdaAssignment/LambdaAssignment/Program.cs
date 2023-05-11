@@ -28,6 +28,7 @@ namespace LambdaAssignment
                     forEmpLoop.Add(i);
                 }
             }
+            //This is printing all the Employees who's first name is Joe to the console
             foreach (Employee i in forEmpLoop)
             {
                 Console.WriteLine(i.firstName + " " + i.lastName);
