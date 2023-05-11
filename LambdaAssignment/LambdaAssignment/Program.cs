@@ -34,6 +34,15 @@ namespace LambdaAssignment
                 Console.WriteLine(i.firstName + " " + i.lastName);
             }
             Console.ReadLine();
+
+
+            //Doing the loop, but now with a lambda expression
+            List<Employee> lambdaLoop = employeeList.Where(i => i.firstName == "Joe").ToList();
+            foreach (Employee i in lambdaLoop)
+            {
+                Console.WriteLine(i.firstName + " " + i.lastName);
+            }
+            Console.ReadLine();
             
         }
     }
