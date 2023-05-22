@@ -50,6 +50,8 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                
+                table.Quote = TotalQuote(table);
                 db.Tables.Add(table);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -58,7 +60,7 @@ namespace CarInsurance.Controllers
             return View(table);
         }
 
-        public ActionResult TotalQuote(Table model)
+        public decimal TotalQuote(Table model)
         {
             decimal monthlyTotal = 50;
             int age = Age(model.DateOfBirth);
@@ -115,11 +117,7 @@ namespace CarInsurance.Controllers
                 monthlyTotal *= 1.5m;
             }
 
-            model.FirstName = model.FirstName;
-            model.LastName = model.LastName;
-            model.EmailAddress = model.EmailAddress;
-            model.Quote = monthlyTotal;
-            return View();
+            return monthlyTotal;
         }
 
         //
