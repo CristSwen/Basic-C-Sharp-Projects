@@ -35,6 +35,12 @@ namespace CarInsurance.Controllers
             return View(table);
         }
 
+        public ActionResult Admin()
+        {
+            var allInfo = db.Tables.ToList();
+            return View(allInfo);
+        }
+
         // GET: Insuree/Create
         public ActionResult Create()
         {
@@ -91,6 +97,10 @@ namespace CarInsurance.Controllers
                 monthlyTotal += 25;
             }
 
+            if (model.CarMake == "Porsche")
+            {
+                monthlyTotal += 25;
+            }
 
             //If the car is a Porsche and a 011 Carrera, add to the total
             if (model.CarMake == "Porsche")
