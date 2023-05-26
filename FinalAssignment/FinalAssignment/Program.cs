@@ -17,13 +17,10 @@ namespace FinalAssignment
             string lName = Console.ReadLine();
             Console.WriteLine("Enter your Grade");
             string grade = Console.ReadLine();
-            var studentFName = new Students { FName = fName };
-            db.Studentss.Add(studentFName);
-            var studentLName = new Students { LName = lName };
-            db.Studentss.Add(studentLName);
-            var studentGrade = new Students { Grade = grade };
-            db.Studentss.Add(studentGrade);
-            db.SaveChanges();
+            StudentInfo db = new StudentInfo();
+            Students student = new Students { FName = fName, LName = lName, Grade = grade };
+            db.Students.Add(student);
+            db.Context.SaveChanges();
 
             //Displaying all the entries in the database
             var query = from b in db.Students
@@ -42,13 +39,32 @@ namespace FinalAssignment
         }
         public class Students
         {
+            public int Id { get; set; }
             public string FName { get; set; }
             public string LName { get; set; }
             public string Grade { get; set; }
         }
         public class StudentInfo
         {
-            public DbSet<Students> Studentss { get; set; }
+            public StudentInfoContext Context { get; set; }
+            
+            public StudentInfo()
+            {
+                Context = new StudentInfoContext();
+            }
+
+            public DbSet<Students> Students
+            {
+                get { return Context.Students; }
+                set { Context.Students = value; }
+            }
+        }
+
+
+        //Defining the DB context class that will inherit from DbContext
+        public class StudentInfoContext : DbContext
+        {
+            public DbSet<Students> Students { get; set; }
         }
     }
 }
